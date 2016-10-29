@@ -5,18 +5,45 @@
 * Edit and add CSS rules as you see fit! :D
 ********************************************/
 
-html,
 body {
-	margin: 0;
+	margin: 2px;
 }
 
 .container {
-	margin: 0 auto;
+	margin: 0;
 	width: 1170px;
+	display: inline-block;
+}
+
+header {
+	background-color: lightskyblue;
+	padding: 1px;
+}
+
+.instructions {
+	border: 5px lightgray solid;
+	margin: 10px;
+}
+
+img {
+	border: 5px lightgray solid;
+}
+
+.pull-left {
+	float: left;
+	margin: 10px;
+}
+
+.pull-right {
+	float: right;
+	margin: 5px;
+
 }
 
 .clear {
 	clear: both;
+	padding: 10px;
+	background: lightskyblue;
 }
 
 /***
@@ -28,6 +55,11 @@ body {
 html { display: flex;}
 body { width: 100%;}
 
+footer {
+	background-color: black;
+	color: lightgray;
+}
+
 .sfooter {
 	display: flex;
 	flex-direction: column;
@@ -37,3 +69,4 @@ body { width: 100%;}
 .sfooter-content {
 	flex: 1 0 auto;
 }
+
