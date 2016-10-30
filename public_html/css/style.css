@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-	margin: 0;
+	margin-left: 80px;
 	width: 1170px;
 	display: inline-block;
 }
@@ -37,6 +37,7 @@ img {
 .pull-right {
 	float: right;
 	margin: 5px;
+
 
 }
 
